@@ -1,0 +1,21 @@
+{
+    "name": "briefing-tool",
+    "version": "1.0.0",
+    "description": "Basic skeleton for Typescript / Node app with MySQL & Docker",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "NODE_OPTIONS='--import=./register.js'  node ./src/index.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+      "@types/node": "^20.12.7",
+      "eslint": "^9.0.0",
+      "mysql2": "^3.9.4",
+      "prettier": "^3.2.5",
+      "ts-node": "^10.9.2"
+    }
+  }
+  
